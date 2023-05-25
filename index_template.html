@@ -104,7 +104,20 @@
                   <li id="paper"  class="mb-1"> <b>{{ paper["title"] }}</b>. {{ paper["authors"] }}. <em>{{ paper["venue"] }}</em> </li>
                   [{% for type, link in paper["links"].items() %}
                     <a href="{{ link }}" target="_blank">{{ type }}</a>
-                  {% endfor %}]
+                  {% endfor %}
+                  {% if "bib" in paper %}
+                    <a class="bibtex-link" href="#">BibTeX</a>
+                  {% endif %}
+                  ]
+                  {% if "bib" in paper %}
+                  <div class="bibtex-content" style="display: none; padding: 10px; background-color: #f0f0f0; border: 1px solid #ccc; border-radius: 4px;">
+                  <br>
+                  <pre style="line-height: 1.5; font-family: 'Courier New', monospace;">
+                    <pre>
+                    {{ paper["bib"] }}
+                    </pre>
+                  </div>
+                  {% endif %}
                 {% endfor %}
               </ol>
             </div>
