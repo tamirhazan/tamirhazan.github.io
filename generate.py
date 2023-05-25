@@ -35,7 +35,7 @@ papers = [
     {
         "title": "AudioToken: Adaptation of Text-Conditioned Diffusion Models for Audio-to-Image Generation",
         "authors": "Guy Yariv, Itai Gat, Lior Wolf, Yossi Adi, Idan Schwartz",
-        "venue": "arXiv, 2023",
+        "venue": "INTERSPEECH, 2023",
         "links": {
             "PDF,": "https://arxiv.org/abs/2305.13050",
             "Page,": "https://pages.cs.huji.ac.il/adiyoss-lab/AudioToken/",
