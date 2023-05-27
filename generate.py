@@ -134,7 +134,7 @@ papers = [
     },
     {
         "title": "Speaker Normalization for Self-supervised Speech Emotion Recognition",
-        "authors": "Itai Gat, Nitay Calderon, Roi Reichart, Tamir Hazan",
+        "authors": "Itai Gat, Hagai Aronowitz, Weizhong Zhu, Edmilson Morais, Ron Hoory",
         "venue": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022",
         "links": {
             "PDF,": "https://arxiv.org/abs/2202.01252",
