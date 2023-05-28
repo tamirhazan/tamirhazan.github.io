@@ -106,6 +106,7 @@ papers = [
         "venue": "Proceedings of the International Conference on Machine Learning (ICML), 2022",
         "links": {
             "PDF,": "https://proceedings.mlr.press/v162/gat22a/gat22a.pdf",
+            "Code,": "https://github.com/nitaytech/FunctionalExplanation"
         },
         "year": 2022,
         "bib": """
@@ -203,7 +204,7 @@ papers = [
         "venue": "Association for Computational Linguistics (ACL), 2021",
         "links": {
             "PDF,": "https://arxiv.org/abs/2106.04484",
-            "Website,": "https://danrosenberg.github.io/rad-measure/"
+            "Page,": "https://danrosenberg.github.io/rad-measure/"
         },
         "year": 2021,
         "bib": """
