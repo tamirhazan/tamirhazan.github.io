@@ -15,7 +15,7 @@ from jinja2 import Template
 
 papers = [
     {
-        "title": "<b>Textually Pretrained Speech Language Models</b>",
+        "title": "Textually Pretrained Speech Language Models",
         "authors": "Michael Hassid, Tal Remez, Tu Anh Nguyen, Itai Gat, Alexis Conneau, Felix Kreuk, Jade Copet, Alexandre Defossez, Gabriel Synnaeve, Emmanuel Dupoux, Roy Schwartz, Yossi Adi",
         "venue": "arXiv, 2023",
         "links": {
@@ -65,6 +65,22 @@ papers = [
         eprint={2305.12393},
         archivePrefix={arXiv},
         primaryClass={cs.LG}}
+        """,
+        "year": 2023,
+    },
+    {
+        "title": "Augmentation Invariant Discrete Representation for Generative Spoken Language Modeling",
+        "authors": "Itai Gat, Felix Kreuk, Tu Anh Nguyen, Ann Lee, Jade Copet, Gabriel Synnaeve, Emmanuel Dupoux, Yossi Adi",
+        "venue": "International Conference on Spoken Language Translation (IWSLT), 2023",
+        "links": {
+            "PDF,": "https://arxiv.org/abs/2305.12393",
+        },
+        "bib": """
+        @inproceedings{augmentationgat23,
+        title={AudioToken: Adaptation of Text-Conditioned Diffusion Models for Audio-to-Image Generation},
+        author={Itai Gat, Felix Kreuk, Tu Anh Nguyen, Ann Lee, Jade Copet, Gabriel Synnaeve, Emmanuel Dupoux, Yossi Adi},
+        booktitle={IWSLT},
+        year={2023}}
         """,
         "year": 2023,
     },
