@@ -54,6 +54,22 @@ papers = [
         """
     },
     {
+        "title": "Expresso: A Benchmark and Analysis of Discrete Expressive Speech Resynthesis",
+        "authors": "Tu Anh Nguyen, Wei-Ning Hsu, Antony d'Avirro, Bowen Shi, Itai Gat, Maryam Fazel-Zarandi, Tal Remez, Jade Copet, Gabriel Synnaeve, Michael Hassid, Felix Kreuk, Yossi Adi, Emmanuel Dupoux",
+        "venue": "International Speech Communication Association (Interspeech), 2023",
+        "links": {
+            "PDF,": "https://itaigat.com",
+        },
+        "year": 2023,
+        "bib": """
+        @inproceedings{expresso2023,
+        title={Expresso: A Benchmark and Analysis of Discrete Expressive Speech Resynthesis}, 
+        author={Tu Anh Nguyen, Wei-Ning Hsu, Antony d'Avirro, Bowen Shi, Itai Gat, Maryam Fazel-Zarandi, Tal Remez, Jade Copet, Gabriel Synnaeve, Michael Hassid, Felix Kreuk, Yossi Adi, Emmanuel Dupoux},
+        booktitle={INTERSPEECH},
+        year={2023}}
+        """
+    },
+    {
         "title": "AudioToken: Adaptation of Text-Conditioned Diffusion Models for Audio-to-Image Generation",
         "authors": "Guy Yariv, Itai Gat, Lior Wolf, Yossi Adi, Idan Schwartz",
         "venue": "INTERSPEECH, 2023",
