@@ -106,7 +106,7 @@ papers = [
         "year": 2023,
     },
     {
-        "title": "Augmentation Invariant Discrete Representation for Generative Spoken Language Modeling",
+        "title": "Augmentation Invariant Discrete Representation for Generative Spoken Language Modeling (Oral)",
         "authors": "Itai Gat, Felix Kreuk, Tu Anh Nguyen, Ann Lee, Jade Copet, Gabriel Synnaeve, Emmanuel Dupoux, Yossi Adi",
         "venue": "International Conference on Spoken Language Translation (IWSLT), 2023",
         "links": {
