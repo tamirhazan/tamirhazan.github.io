@@ -58,7 +58,7 @@ papers = [
         "authors": "Tu Anh Nguyen, Wei-Ning Hsu, Antony d'Avirro, Bowen Shi, Itai Gat, Maryam Fazel-Zarandi, Tal Remez, Jade Copet, Gabriel Synnaeve, Michael Hassid, Felix Kreuk, Yossi Adi, Emmanuel Dupoux",
         "venue": "International Speech Communication Association (Interspeech), 2023",
         "links": {
-            "PDF,": "https://itaigat.com",
+            "PDF,": "https://arxiv.org/abs/2308.05725",
         },
         "year": 2023,
         "bib": """
