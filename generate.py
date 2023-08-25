@@ -14,6 +14,27 @@ from jinja2 import Template
 # ]
 
 papers = [
+    {
+        "title": "Code Llama: Open Foundation Models for Code",
+        "authors": "Baptiste Rozière, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat, Xiaoqing Ellen Tan, Yossi Adi, Jingyu Liu, Tal Remez, Jérémy Rapin, Artyom Kozhevnikov, Ivan Evtimov, Joanna Bitton, Manish Bhatt, Cristian Canton Ferrer, Aaron Grattafiori, Wenhan Xiong, Alexandre Défossez, Jade Copet, Faisal Azhar, Hugo Touvron, Louis Martin, Nicolas Usunier, Thomas Scialom, Gabriel Synnaeve",
+        "venue": "arXiv, 2023",
+        "links": {
+            "PDF,": "https://arxiv.org/abs/2308.12950",
+            "Code and Models,": "https://github.com/facebookresearch/codellama",
+            "Blog,": "https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/"
+        },
+        "year": 2023,
+        "bib": """
+        @misc{roziere2023code,
+            title={Code Llama: Open Foundation Models for Code}, 
+            author={Baptiste Rozière and Jonas Gehring and Fabian Gloeckle and Sten Sootla and Itai Gat and Xiaoqing Ellen Tan and Yossi Adi and Jingyu Liu and Tal Remez and Jérémy Rapin and Artyom Kozhevnikov and Ivan Evtimov and Joanna Bitton and Manish Bhatt and Cristian Canton Ferrer and Aaron Grattafiori and Wenhan Xiong and Alexandre Défossez and Jade Copet and Faisal Azhar and Hugo Touvron and Louis Martin and Nicolas Usunier and Thomas Scialom and Gabriel Synnaeve},
+            year={2023},
+            eprint={2308.12950},
+            archivePrefix={arXiv},
+            primaryClass={cs.CL}
+            }
+        """
+    },
         {
         "title": "Simple and Controllable Music Generation",
         "authors": "Jade Copet, Felix Kreuk, Itai Gat, Tal Remez, David Kant, Gabriel Synnaeve, Yossi Adi, Alexandre Défossez",
