@@ -38,7 +38,7 @@ papers = [
         {
         "title": "Simple and Controllable Music Generation",
         "authors": "Jade Copet, Felix Kreuk, Itai Gat, Tal Remez, David Kant, Gabriel Synnaeve, Yossi Adi, Alexandre Défossez",
-        "venue": "arXiv, 2023",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2023",
         "links": {
             "PDF,": "https://arxiv.org/abs/2306.05284",
             "Demo,": "https://huggingface.co/spaces/facebook/MusicGen",
@@ -46,32 +46,29 @@ papers = [
         },
         "year": 2023,
         "bib": """
-        @misc{copet2023simple,
-            title={Simple and Controllable Music Generation}, 
-            author={Jade Copet and Felix Kreuk and Itai Gat and Tal Remez and David Kant and Gabriel Synnaeve and Yossi Adi and Alexandre Défossez},
-            year={2023},
-            eprint={2306.05284},
-            archivePrefix={arXiv},
-            primaryClass={cs.SD}
+        @inproceedings{copet2023simple,
+        title={Simple and Controllable Music Generation},
+        author={Jade Copet and Felix Kreuk and Itai Gat and Tal Remez and David Kant and Gabriel Synnaeve and Yossi Adi and Alexandre Défossez},
+        booktitle={NeurIPS},
+        year ={2023},}
         }
         """
     },
     {
         "title": "Textually Pretrained Speech Language Models",
         "authors": "Michael Hassid, Tal Remez, Tu Anh Nguyen, Itai Gat, Alexis Conneau, Felix Kreuk, Jade Copet, Alexandre Defossez, Gabriel Synnaeve, Emmanuel Dupoux, Roy Schwartz, Yossi Adi",
-        "venue": "arXiv, 2023",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2023",
         "links": {
             "PDF,": "https://arxiv.org/abs/2305.13009",
             "Samples,": "https://pages.cs.huji.ac.il/adiyoss-lab/twist/",
         },
         "year": 2023,
         "bib": """
-        @misc{hassid2023textually,
-        title={Textually Pretrained Speech Language Models}, 
+        @inproceedings{hassid2023textually,
+        title={Textually Pretrained Speech Language Models},
         author={Michael Hassid and Tal Remez and Tu Anh Nguyen and Itai Gat and Alexis Conneau and Felix Kreuk and Jade Copet and Alexandre Defossez and Gabriel Synnaeve and Emmanuel Dupoux and Roy Schwartz and Yossi Adi},
-        year={2023},
-        eprint={2305.13009},
-        archivePrefix={arXiv},}
+        booktitle={NeurIPS},
+        year ={2023},}
         """
     },
     {
