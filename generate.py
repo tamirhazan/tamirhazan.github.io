@@ -15,6 +15,27 @@ from jinja2 import Template
 
 papers = [
     {
+        "title": "Diverse and Aligned Audio-to-Video Generation via Text-to-Video Model Adaptation",
+        "authors": "Guy Yariv, Itai Gat, Sagie Benaim, Lior Wolf, Idan Schwartz, Yossi Adi",
+        "venue": "arXiv, 2023",
+        "links": {
+            "PDF,": "https://arxiv.org/abs/2309.16429",
+            "Code and Models,": "https://github.com/guyyariv/TempoTokens",
+            "Website,": "https://pages.cs.huji.ac.il/adiyoss-lab/TempoTokens/"
+        },
+        "year": 2023,
+        "bib": """
+        @misc{yariv2023diverse,
+            title={Diverse and Aligned Audio-to-Video Generation via Text-to-Video Model Adaptation},
+            author={Guy Yariv and Itai Gat and Sagie Benaim and Lior Wolf and Idan Schwartz and Yossi Adi},
+            year={2023},
+            eprint={2309.16429},
+            archivePrefix={arXiv},
+            primaryClass={cs.LG}
+            }
+        """
+    },
+    {
         "title": "Code Llama: Open Foundation Models for Code",
         "authors": "Baptiste Rozière, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat, Xiaoqing Ellen Tan, Yossi Adi, Jingyu Liu, Tal Remez, Jérémy Rapin, Artyom Kozhevnikov, Ivan Evtimov, Joanna Bitton, Manish Bhatt, Cristian Canton Ferrer, Aaron Grattafiori, Wenhan Xiong, Alexandre Défossez, Jade Copet, Faisal Azhar, Hugo Touvron, Louis Martin, Nicolas Usunier, Thomas Scialom, Gabriel Synnaeve",
         "venue": "arXiv, 2023",
@@ -90,7 +111,7 @@ papers = [
     {
         "title": "AudioToken: Adaptation of Text-Conditioned Diffusion Models for Audio-to-Image Generation",
         "authors": "Guy Yariv, Itai Gat, Lior Wolf, Yossi Adi, Idan Schwartz",
-        "venue": "INTERSPEECH, 2023",
+        "venue": "International Speech Communication Association (Interspeech), 2023",
         "links": {
             "PDF,": "https://arxiv.org/abs/2305.13050",
             "Page,": "https://pages.cs.huji.ac.il/adiyoss-lab/AudioToken/",
