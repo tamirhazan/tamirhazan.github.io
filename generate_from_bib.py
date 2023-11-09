@@ -24,10 +24,27 @@ papers = []
         "bib": "str"
     }
 """
+
+# Get also links
+from semanticscholar import SemanticScholar
+
+sch = SemanticScholar()
+results = sch.search_author('Tamir Hazan')
+paper2url = {item['title'].lower(): item['url'] for item in results[0]['papers']}
+
 for k, paper in bib_data.entries.items():
     tmp_dict = {}
     
     tmp_dict["title"] = paper.fields["title"]
+
+    # import ipdb; ipdb.set_trace()
+
+    if paper.fields["title"].lower() in paper2url:
+        tmp_dict["links"] = {
+            "PDF, ": paper2url[paper.fields["title"].lower()]
+        }
+    else:
+        tmp_dict["links"] = {}
     
     authors = ""
     
@@ -51,7 +68,7 @@ for k, paper in bib_data.entries.items():
     
     tmp_dict["year"] = int(paper.fields["year"])
     tmp_dict["bib"] = paper.to_string('bibtex')
-    tmp_dict["links"] = {}
+    # tmp_dict["links"] = {}
 
     papers.append(tmp_dict)
 
